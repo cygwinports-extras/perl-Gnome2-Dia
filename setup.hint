@@ -1,0 +1,4 @@
+category: Perl Gnome
+requires: cygwin diacanvas2 glib2 gtk2-x11 pango perl perl-Cairo perl-Glib perl-Gtk2 perl-Gnome2-Canvas perl-Gnome2-Print
+sdesc: "Perl DiaCanvas2 bindings"
+ldesc: "Perl bindings for the DiaCanvas2 diagramming widget library"

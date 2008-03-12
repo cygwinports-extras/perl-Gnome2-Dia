@@ -1,0 +1,161 @@
+perl-Gnome2-Dia
+-------------------------------------------
+Perl bindings for the DiaCanvas2 diagramming widget library
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  diacanvas2-0.15.4-1
+  gdk-pixbuf2-2.12.7-1
+  glib2-2.14.6-1
+  gtk2-x11-2.12.7-1
+  libgnomeprint22-2.18.3-1
+  pango-1.18.4-1
+  perl-5.10.0-3
+  perl-Cairo-1.045-1
+  perl-Glib-1.164-1
+  perl-Gtk2-1.164-1
+  perl-Gnome2-Canvas-1.002-5
+  perl-Gnome2-Print-1.000-2
+
+Additional build requirements:
+  binutils-20060817-1
+  cygport-0.3.9-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  perl-ExtUtils-Depends-0.205-2
+  perl-ExtUtils-PkgConfig-1.10-1
+
+Canonical homepage:
+  http://gtk2-perl.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/gtk2-perl/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-Gnome2-Dia-0.04-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-Gnome2-Dia-0.04-X.cygport all
+
+This will create:
+  /usr/src/perl-Gnome2-Dia-0.04-X-src.tar.bz2
+  /usr/src/perl-Gnome2-Dia-0.04-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Canvas.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasBox.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasEditable.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasElement.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasGroup.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasGroupable.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasImage.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasItem.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasLine.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasText.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/CanvasView.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Constraint.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/DefaultTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Event.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Event/Button.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Event/Key.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Event/Motion.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Export/SVG.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Export.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Handle.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/HandleLayer.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/HandleTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas.doctypes
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas2perl-autogen.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas2perl-version.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas2perl.h
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/diacanvas2perl.typemap
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Install/Files.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/ItemTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/PlacementTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/SelectionTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Selector.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape/Bezier.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape/Ellipse.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape/Image.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape/Path.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Shape/Text.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Solver.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/StackTool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Tool.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/Variable.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/index.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Gnome2/Dia/main.pod
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Dia/.packlist
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Gnome2/Dia/Dia.dll
+  /usr/share/doc/perl-Gnome2-Dia-0.04/ChangeLog
+  /usr/share/doc/perl-Gnome2-Dia-0.04/LICENSE
+  /usr/share/doc/perl-Gnome2-Dia-0.04/NEWS
+  /usr/share/doc/perl-Gnome2-Dia-0.04/README
+  /usr/share/man/man3/Gnome2.Dia.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Canvas.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasBox.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasEditable.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasElement.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasGroup.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasGroupable.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasImage.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasItem.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasLine.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasText.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.CanvasView.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Constraint.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.DefaultTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Event.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Event.Button.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Event.Key.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Event.Motion.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Export.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Export.SVG.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Handle.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.HandleLayer.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.HandleTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.ItemTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.PlacementTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.SelectionTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Selector.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.Bezier.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.Ellipse.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.Image.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.Path.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Shape.Text.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Solver.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.StackTool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Tool.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.Variable.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.index.3pm.gz
+  /usr/share/man/man3/Gnome2.Dia.main.3pm.gz
+
+--------------------
+
+Port Notes:
+
+----- version 0.04-3 -----
+Rebuilt for perl-5.10.
+
+----- version 0.04-2 -----
+Rebuilt for perl-5.8.7 with --enable-auto-image-base.
+
+----- version 0.04-1 -----
+Version bump, built against perl-5.8.6.
+
+----- version 0.03-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
